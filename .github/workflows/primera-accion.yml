@@ -1,0 +1,12 @@
+# este es un flujo de trabajo básico
+
+name: primer Flujo de trabajo basico
+on: workflow_dispatch
+jobs:
+  basico-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: saludo 
+        run: echo "hello world"
+      - name: despedida
+        run: echo "Adios!!"
